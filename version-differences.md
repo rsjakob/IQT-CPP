@@ -1,6 +1,6 @@
 # Version Differences
 
-#### C++ 11
+#### C++ 11 \(12 August 2011\)
 
 * Initializer Lists
 * Uniform Initialization
