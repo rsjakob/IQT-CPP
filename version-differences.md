@@ -1,6 +1,6 @@
 # Version Differences
 
-#### C++ 11 
+#### C++ 11
 
 ###### \(12 August 2011\)
 
@@ -28,13 +28,13 @@
 
 ###### \(December 2017\)
 
-* fold expressions
-* constexpr if
-* template argument deduction for class templates
-* filesystem
-* parallel STL
-* nested namespaces
-* structured bindings
+* Fold Expressions
+* Constexpr if
+* Template argument deduction for class templates
+* Filesystem
+* Parallel STL
+* Nested Namespaces
+* Structured Bindings
 
 
 
