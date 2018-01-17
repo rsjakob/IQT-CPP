@@ -1,3 +1,5 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [IQT C++ Programming](iqt-c++-programming.md)
+* [Introduction](README.md)
+
