@@ -14,5 +14,11 @@
 
 #### C++ 14
 
+* Return type deduction for functions
+* Generic Lambdas
+* Extended capturing in lambdas
+* Revised restrictions on Constxpr Functions
+* Constexpr Variable Templates
+
 
 
