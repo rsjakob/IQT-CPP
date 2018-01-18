@@ -7,5 +7,17 @@
 * Put implementation details in source fiels \(**.cpp**, not **.c**\)
 * Do not use the **\#using** directive in a header
 
+----------------------------------
+
+```
+struct CyberMissile { 
+  double velocity, position; 
+  double time_to_target_at(double target_position){
+    return (target_position – position)/velocity;
+  }
+};
+
+```
+
 
 
