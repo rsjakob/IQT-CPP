@@ -5,4 +5,5 @@
 * [Version Differences](version-differences.md)
 * [Compilers](compilers.md)
 * [Headers and Source](headers-and-source.md)
+* [Returning C Types](returning-c-types.md)
 
