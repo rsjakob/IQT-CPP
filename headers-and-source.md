@@ -20,7 +20,7 @@ struct CyberMissile {
 
 ###### You can opt to put the entire function definition in a header file.
 
-----------------------------------------------------
+---
 
 ```
 cybermissile.h 
@@ -35,8 +35,6 @@ cybermissile.cpp
 double CyberMissile::time_to_target_at(double target_position){
   return (target_position – position) / velocity;
 }
-
-
 ```
 
 ###### Or we can split the declaration and definition into header and source files.
