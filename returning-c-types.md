@@ -1,6 +1,6 @@
 # Returning C Types
 
-------------------------------------------
+---
 
 All the primitive data types we learned previously are still available in `std::arithmetic` including:
 

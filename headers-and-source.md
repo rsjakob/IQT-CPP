@@ -1,5 +1,7 @@
 # Headers and Source
 
+---
+
 **All of your knowledge from C translated to C++:**
 
 * Put exported functionality in header \(.h\) files

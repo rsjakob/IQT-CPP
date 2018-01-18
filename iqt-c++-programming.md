@@ -1,5 +1,7 @@
 # IQT C++ Programming
 
+---
+
 ![](/assets/cpp.png)
 
 #### [Documentation](http://www.cplusplus.com/doc/tutorial/)
