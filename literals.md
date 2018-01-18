@@ -8,7 +8,9 @@
 * **Hex:** 0xDEADBEEF
 * **Octal:** 034532
 * **Binary:** 0b1110010101101 **\(C++14\)**
-* **Unsigned Suffix:** 
+* **Unsigned Suffix:** u or U \(i.e. 0xDEADBEEFU or 12345u\)
+* **Long Suffix:** l or L \(i.e. 0xDEADBEEFL\)
+* **Long-Long Suffix:** ll or LL **\(C++11\)**
 
 
 
