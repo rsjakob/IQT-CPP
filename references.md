@@ -22,6 +22,8 @@ References are pointers that cannot be null, and you interact with references wi
 
 
 
+
+
 > struct Point{
 >
 > int x, y;
