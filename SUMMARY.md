@@ -16,4 +16,6 @@
   * [Function Design Guidelines](function-design-guidelines.md)
 * [Lab 1](lab-1.md)
 * [C++ Standard Template Library](c++-standard-template-library.md)
+  * [STL Containers and Streams](c++-standard-template-library/stl-containers-and-streams.md)
+  * [Strings in C++](c++-standard-template-library/strings-in-c++.md)
 
