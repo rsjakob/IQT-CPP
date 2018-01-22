@@ -19,10 +19,10 @@ The **auto **specifier is only allowed for objects declared at block scope \(exc
 > {
 >
 >      auto x = 42.0L;
-
-> //code stuffs
-
-> return \(0\);
+>
+>      //code stuffs
+>
+>      return \(0\);
 >
 > }
 
