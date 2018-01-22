@@ -58,9 +58,26 @@ The **auto **specifier is only allowed for objects declared at block scope \(exc
 
 > ##### int foo = 0;
 >
-> ##### decltype\(foo\) bar; 
+> ##### decltype\(foo\) bar;
 >
 > ##### //bar now has the same type as foo
 
 Allows devs to focus on logic, rather than mundane tasks.
+
+---
+
+#### Runtime Sized Arrays
+
+* New feature to C++14
+* Arrays can be sized at runtime.
+
+> void fun\(int i\)
+>
+> {
+>
+>     int array\[i\];
+>
+> }
+
+
 
