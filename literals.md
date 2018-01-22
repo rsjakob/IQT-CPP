@@ -83,5 +83,22 @@ Suffix
 
 **Mostly the same as character literals:**
 
+* "unescaped or escape characters"
+* L"unescaped or escaped characters"
+* u8"unescaped or escaped characters"
+* u"unescaped or escaped characters"
+* U"unescaped or escaped characters"
+* R"delimiter\(raw characters\) delimiter"
+
+> ### //Raw String Examples
+>
+> ### auto str = R”foo\(“this is a raw string”/”I \(can\) use all kinds of ‘characters’”\)foo”;
+
+---
+
+# Escape Sequences
+
+---
+
 
 
