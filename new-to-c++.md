@@ -75,9 +75,25 @@ Allows devs to focus on logic, rather than mundane tasks.
 >
 > {
 >
->     int array\[i\];
+> ```
+> int array\[i\];
+> ```
 >
 > }
+
+---
+
+#### Functions
+
+You can still use C-style functions:
+
+> ##### int do\_stuff\(int in\_param, char\[\] array, double \*out\_param\)
+
+Major improvements:
+
+* Passing with **references**.
+* Passing **structs/classes** by value.
+* **const **parameters.
 
 
 
