@@ -18,11 +18,29 @@ The **auto **specifier is only allowed for objects declared at block scope \(exc
 >
 > {
 >
->      auto x = 42.0L;
+> ```
+>  auto x = 42.0L;
 >
->      //code stuffs
+>  //code stuffs
 >
->      return \(0\);
+>  return \(0\);
+> ```
+>
+> }
+
+**auto **can save your life! Or at least your execution:
+
+> \#include &lt;iostream&gt;
+>
+> int main\(\)
+>
+> {
+>
+>  unsignedintbad = -42;
+
+> //code stuffs
+>
+>  return \(0\);
 >
 > }
 
