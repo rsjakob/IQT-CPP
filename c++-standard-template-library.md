@@ -30,3 +30,17 @@
 
 ![](/assets/31.PNG)
 
+---
+
+If you use the std::sort, it's clear what you are doing.
+
+Writing your own common algorithm makes your code obscure, more error-prone, and a waste of time.
+
+Use the STL!
+
+> #### vector&lt;int&gt; a\({2, 8, 5, 6, 1, 1, 0}\);
+>
+> #### sort\(a.begin\(\), a.end\(\)\);
+
+
+
