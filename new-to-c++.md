@@ -95,5 +95,23 @@ Major improvements:
 * Passing **structs/classes** by value.
 * **const **parameters.
 
+---
+
+#### Default Argument Values
+
+You can make arguments optional by giving them default values:
+
+> ##### double function\_with\_default\(double x=100\)
+>
+> ##### {
+>
+> ##### return x;
+>
+> ##### }
+
+> ##### auto a = function\_with\_default\(\);
+>
+> ##### auto b = function\_with\_default\(42\);
+
 
 
