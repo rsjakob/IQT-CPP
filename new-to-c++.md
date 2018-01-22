@@ -36,11 +36,11 @@ The **auto **specifier is only allowed for objects declared at block scope \(exc
 >
 > {
 >
->  unsignedintbad = -42;
-
-> //code stuffs
+>     unsignedintbad = -42;
 >
->  return \(0\);
+>     //code stuffs
+>
+>     return \(0\);
 >
 > }
 
