@@ -26,27 +26,27 @@
 
 > ##### int g\(int a\[\],int l,int r\) {
 >
-> ##### int pivot, i, j, t;
+> #####     int pivot, i, j, t;
 >
-> #####  pivot = a\[l\];
+> #####     pivot = a\[l\];
 >
-> ##### i= l; j = r + 1;
+> #####     i= l; j = r + 1;
 >
-> #####  while\(true\) {
+> #####     while\(true\) {
 >
-> #####  do ++i, while\(a\[i\] &lt;= pivot && i &lt;= r\);
+> #####         do ++i, while\(a\[i\] &lt;= pivot && i &lt;= r\);
 >
-> #####  do --j, while\(a\[j\] &gt; pivot\);
+> #####         do --j, while\(a\[j\] &gt; pivot\);
 >
-> #####  if\(i&gt;= j\) break;
+> #####         if\(i&gt;= j\) break;
 >
-> #####  t = a\[i\]; a\[i\] = a\[j\]; a\[j\] = t;
+> #####         t = a\[i\]; a\[i\] = a\[j\]; a\[j\] = t;
 >
-> #####  }
+> #####     }
 >
-> #####  t = a\[l\]; a\[l\] = a\[j\]; a\[j\] = t;
+> #####     t = a\[l\]; a\[l\] = a\[j\]; a\[j\] = t;
 >
-> #####  return j;
+> #####     return j;
 >
 > ##### }
 
