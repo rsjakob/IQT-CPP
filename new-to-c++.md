@@ -2,7 +2,7 @@
 
 ---
 
-#### **We now have'auto'**
+#### **We now have 'auto'**
 
 ###### Usage
 
@@ -108,10 +108,56 @@ You can make arguments optional by giving them default values:
 > ##### return x;
 >
 > ##### }
-
+>
 > ##### auto a = function\_with\_default\(\);
 >
 > ##### auto b = function\_with\_default\(42\);
+
+---
+
+#### const
+
+New keyword, means you wont change the value of the **const **variable.
+
+It is a **const-**ant.
+
+> ##### \#include &lt;iostream&gt;
+>
+> ##### int main\(\)
+>
+> ##### {
+>
+> #####     const auto x = 100;
+>
+> #####      x = 200;     //Does not compile
+>
+> #####      //code stuffs
+
+> #####      return \(0\);
+>
+> ##### }
+
+**const** variables cannot be modified. This includes **const** pointers.
+
+**const int \* **- a pointer that points to constant data.
+
+**int\* const** - a pointer that cannot be reassigned.
+
+**const int\* const** - a pointer that is constant, that points to data that is constant.
+
+> const int a = 0xDEADBEEF;
+>
+> const int b = 0xCAFEF00D;
+>
+> int\* const ptr1 = &a;    //ERROR
+>
+> const int\* ptr2 = &a;
+>
+> ptr2 = &b;
+>
+> const int\* const ptr3 = &a;
+>
+> ptr3 = &b    //ERROR
 
 
 
