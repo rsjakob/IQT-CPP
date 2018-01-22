@@ -2,6 +2,7 @@
 
 * [IQT C++ Programming](iqt-c++-programming.md)
 * [Introduction](README.md)
+  * [article](article.md)
 * [Version Differences](version-differences.md)
 * [Compilers](compilers.md)
 * [Headers and Source](headers-and-source.md)
