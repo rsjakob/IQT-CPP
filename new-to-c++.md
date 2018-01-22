@@ -129,11 +129,11 @@ It is a **const-**ant.
 >
 > #####     const auto x = 100;
 >
-> #####      x = 200;     //Does not compile
+> #####     x = 200;     //Does not compile
 >
-> #####      //code stuffs
-
-> #####      return \(0\);
+> #####     //code stuffs
+>
+> #####     return \(0\);
 >
 > ##### }
 
