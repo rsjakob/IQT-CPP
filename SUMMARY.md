@@ -2,7 +2,6 @@
 
 * [IQT C++ Programming](iqt-c++-programming.md)
 * [Introduction](README.md)
-  * [article](article.md)
   * [Version Differences](version-differences.md)
   * [Headers and Source](headers-and-source.md)
   * [Compilers](compilers.md)
@@ -10,4 +9,5 @@
   * [Machine Architecture](c++-and-machine-architecture.md)
   * [C++ Type Sizes](c++-integer-type-sizes.md)
   * [Literals](literals.md)
+  * [Namespaces](namespaces.md)
 
