@@ -48,5 +48,33 @@ returns the length of a string in bytes.
 >
 > REQUIRE\(substring == “kill zombies!”\);
 
+---
+
+#### find
+
+**find\(const string& str\)** – returns the position of the first match. If no match is found, **string::npos** is returned.
+
+> ##### string keepcalm\(“Keep calm and kill zombies!”\);
+>
+> ##### auto zpos = keepcalm.find\(“z”\);
+>
+> ##### REQUIRE\(zpos= 19\);
+
+###### Note: other overloads of this method exist.
+
+---
+
+#### append
+
+**append\(const string& str\)** - adds the given characters to the end of a string.
+
+> ##### string keepcalm\(“Keep calm”\);
+>
+> ##### keepcalm.append\(“!”\);
+>
+> ##### REQUIRE\(keepcalm == “Keep calm!”\);
+
+###### Note: other overloads of this method exist.
+
 
 
