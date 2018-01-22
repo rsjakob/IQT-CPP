@@ -22,3 +22,19 @@ We will discuss some import string class methods, but there are many, many more�
 
 There also exist other variants, such as std::wstring
 
+---
+
+#### length\(\):
+
+returns the length of a string in bytes.
+
+> ##### string keepcalm\(“Keep calm and carry on”\);
+>
+> ##### auto string\_len = keepcalm.length\(\);
+>
+> ##### REQUIRE\(string\_len== 21\);
+>
+> ---
+
+
+
