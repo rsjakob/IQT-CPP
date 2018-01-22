@@ -10,11 +10,7 @@ References are pointers that cannot be null, and you interact with references wi
 >
 > };
 >
->
->
 > voidset\_to\_origin\(Point &point\){
->
->
 >
 > point.x = 0;
 >
@@ -26,23 +22,17 @@ References are pointers that cannot be null, and you interact with references wi
 
 
 
-
-
 > struct Point{
 >
 > int x, y;
 >
 > };
 >
->
->
 > void set\_to\_origin\(Point \*point\){
 >
+> point-&gt;x = 0;
 >
->
->  point-&gt;x = 0;
->
->  point-&gt;y = 0;
+> point-&gt;y = 0;
 >
 > }
 >
