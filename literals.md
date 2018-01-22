@@ -45,7 +45,7 @@ Suffix
 
 > 0x0.12fp-1, 0x1p.10 ...
 
- **Hex-digit-sequence:** representing a fractional number with a radix separator.
+**Hex-digit-sequence:** representing a fractional number with a radix separator.
 
 > 0x0.123-1, 0xa.bp10l ...
 
@@ -53,7 +53,7 @@ Suffix
 
 * e \| E:  The exponent syntax for a decimal floating-point literal.
 * p \| P:  The exponent syntax for hexadecimal floating-point literal.
-*  \(no suffix\) defines **double**
+* \(no suffix\) defines **double**
 * f \| F: defines **float**
 * l \| L: defines **long double**
 
@@ -80,6 +80,8 @@ Suffix
 # String Literals
 
 ---
+
+**Mostly the same as character literals:**
 
 
 
