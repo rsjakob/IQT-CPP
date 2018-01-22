@@ -33,8 +33,20 @@ returns the length of a string in bytes.
 > ##### auto string\_len = keepcalm.length\(\);
 >
 > ##### REQUIRE\(string\_len== 21\);
+
+---
+
+#### substr\(\):
+
+* **substr\(size\_t pos, size\_t len = npos\)** – returns a newly constructed substring of the original string.
+* **string::npos** indicates all characters until the end of the string. This is a new feature to C++14
+* **size\_t **is an unsigned int type.
+
+> string keepcalm\(“Keep calm and kill zombies!”\);
 >
-> ---
+> auto substring = keepcalm.substr\(14, 12\);
+>
+> REQUIRE\(substring == “kill zombies!”\);
 
 
 
