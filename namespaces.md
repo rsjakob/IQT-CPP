@@ -8,19 +8,19 @@
 * **::** is the scope resolution operator, so you can reference an variable or function in a particular scope.
 * keyword using allows your program to use an entire namespace.
 
-
-
 > #### //bas.h
 >
 > #### namespace IQTCPP {
 >
-> ####      int foo;
+> #### int foo;
 >
-> ####      class bar;
+> #### class bar;
 >
-> ####      void bas\(\);
+> #### void bas\(\);
 >
 > #### }
+
+### 
 
 > ### //some\_other\_file.cpp
 >
@@ -32,11 +32,11 @@
 >
 > ### voiddo\_stuff\(\) {
 >
-> ###      foo = 10;
+> ### foo = 10;
 >
-> ###      bar x;
+> ### bar x;
 >
-> ###      IQTCPP::bas\(\);
+> ### IQTCPP::bas\(\);
 >
 > ### }
 >
