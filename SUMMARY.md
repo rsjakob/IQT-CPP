@@ -13,4 +13,6 @@
   * [New to C++](new-to-c++.md)
   * [Passing](passing-const.md)
   * [References](references.md)
+  * [Function Design Guidelines](function-design-guidelines.md)
+* [Lab 1](lab-1.md)
 
