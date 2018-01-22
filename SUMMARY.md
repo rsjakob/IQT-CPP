@@ -15,4 +15,5 @@
   * [References](references.md)
   * [Function Design Guidelines](function-design-guidelines.md)
 * [Lab 1](lab-1.md)
+* [C++ Standard Template Library](c++-standard-template-library.md)
 
