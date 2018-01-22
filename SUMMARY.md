@@ -10,4 +10,5 @@
   * [C++ Type Sizes](c++-integer-type-sizes.md)
   * [Literals](literals.md)
   * [Namespaces](namespaces.md)
+  * [New to C++](new-to-c++.md)
 
