@@ -25,7 +25,61 @@ Suffix
 
 ---
 
-* **Digit**
+**Digit-sequence: **whole number without a decimal separator, exponent is not optional.
+
+> 1e10, 1e-5L ...
+
+**Digit-sequence:  **representing a whole number with a decimal separator, in this case the exponent is optional.
+
+> 1.e-1, 1.07 ...
+
+**Digit-sequence:  **representing a fractional number. The exponent is optional.
+
+> 3.14, .1f, 1.42e100 ...
+
+**Hex-digit-sequence:**  representing a whole number without a radix separator. The exponent is never optional for hexadecimal floating-point literals
+
+> 0x1ffp10, 0X1ffp-1 ...
+
+**Hex-digit-sequence:**  representing a whole number with a radix separator. \(The exponent is never optional for hexadecimal floating-point literals.\)
+
+> 0x0.12fp-1, 0x1p.10 ...
+
+ **Hex-digit-sequence:** representing a fractional number with a radix separator.
+
+> 0x0.123-1, 0xa.bp10l ...
+
+**Suffix:**
+
+* e \| E:  The exponent syntax for a decimal floating-point literal.
+* p \| P:  The exponent syntax for hexadecimal floating-point literal.
+*  \(no suffix\) defines **double**
+* f \| F: defines **float**
+* l \| L: defines **long double**
+
+---
+
+# Character Literals
+
+---
+
+**'c-char':** char
+
+**u8'c-char':** UTF-8 char
+
+**u'c-char':** UCS-2 character- char16\_t
+
+**U'c-char':** UCS-4 character- char32\_t
+
+**L'c-char':** wide-character- implementation-defined .
+
+**'c-char-sequence':** Can be combined with the above pre-fixes.
+
+---
+
+# String Literals
+
+---
 
 
 
