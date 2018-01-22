@@ -105,7 +105,7 @@ You have used some of these previously in C. Here is a more comprehensive list:
 * \’ : single quote
 * \” : double quote
 * \? : question mark
-* \\ : backslash
+* \ : backslash
 * \a : audible bell
 * \b : backspace
 * \f : form feed
@@ -116,6 +116,46 @@ You have used some of these previously in C. Here is a more comprehensive list:
 * \nnn: arbitrary octal value
 * \Xnn: arbitrary hex value
 * \Unnn: universal character name
+
+---
+
+# New C++ nullptr
+
+---
+
+nullptr = a literal that represents a null pointer.
+
+> void foo\(int a\)
+>
+> {
+>
+>      //do stuff with a
+>
+> }
+>
+>
+>
+> void foo\(char\* a\)
+>
+> {
+>
+>     //do stuff with a
+>
+> }
+>
+>
+>
+> int main\(\)
+>
+> {
+>
+>      foo\(0\);
+>
+>      foo\(NULL\);
+>
+>      foo\(nullptr\);
+>
+> }
 
 
 
