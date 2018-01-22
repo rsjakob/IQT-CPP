@@ -1,6 +1,8 @@
 # New to C++
 
-##### **We now have the keyword: 'auto'**
+---
+
+#### **We now have'auto'**
 
 ###### Usage
 
@@ -46,5 +48,19 @@ The **auto **specifier is only allowed for objects declared at block scope \(exc
 >
 > }
 
+---
 
+#### decltype
+
+* **decltype **is useful for trying to deduce a data type, but you do not have an initializer.
+* **decltype** extracts the type from another variable.
+* Both **auto **and **decltype** are very powerful.
+
+> ##### int foo = 0;
+>
+> ##### decltype\(foo\) bar; 
+>
+> ##### //bar now has the same type as foo
+
+Allows devs to focus on logic, rather than mundane tasks.
 
