@@ -100,5 +100,22 @@ Suffix
 
 ---
 
+You have used some of these previously in C. Here is a more comprehensive list:
+
+* \’ : single quote
+* \” : double quote
+* \? : question mark
+* \\ : backslash
+* \a : audible bell
+* \b : backspace
+* \f : form feed
+* \n : new line
+* \r : carriage return
+* \t : horizontal tab
+* \v : vertical tab
+* \nnn: arbitrary octal value
+* \Xnn: arbitrary hex value
+* \Unnn: universal character name
+
 
 
