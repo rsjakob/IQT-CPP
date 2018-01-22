@@ -1,5 +1,7 @@
 # Passing const
 
+---
+
 You can pass by reference/pointer/value with or without the **'const'** qualifier:
 
 > double distance\_def\(const Point &point\){
@@ -20,6 +22,8 @@ What's wrong with the following function declaration?
 
 # Passing by value
 
+---
+
 You can pass structs \(and classes\) by value:
 
 > double distance\(Point point\){
@@ -28,7 +32,7 @@ You can pass structs \(and classes\) by value:
 >
 > point.y \*= point.y;
 >
->  return sqrt\(point.x + point.y\);
+> return sqrt\(point.x + point.y\);
 >
 > };
 >
