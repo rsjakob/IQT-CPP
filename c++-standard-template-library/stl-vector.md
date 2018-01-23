@@ -119,7 +119,7 @@ There also exists **std::array**, which is a fixed size, and size must be known 
 >
 > ##### REQUIRE\(fibonacci.empty\(\)\);
 
-
+##### 
 
 > ##### vector&lt;int&gt; fibonacci{0, 1, 1, 2, 3, 5, 8};
 >
