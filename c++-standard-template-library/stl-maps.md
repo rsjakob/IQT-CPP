@@ -17,7 +17,7 @@
 >
 > ##### {
 >
-> ##### if\(element.first == “AmuroRay” && element.second == “Gundam”\) 
+> ##### if\(element.first == “AmuroRay” && element.second == “Gundam”\)
 >
 > ##### {
 >
@@ -30,6 +30,21 @@
 > ##### 
 >
 > ##### REQUIRE\(found\_gundam\);
+
+---
+
+#### emplace\(\)
+
+* **emplace\(const iterator position, Args && … args\)**
+* Inserts an element into the **map**. Similar to **vectors, emplace\(\)**
+* Constructs the new element in-place for lower overhead
+* New to C++ 11
+
+> gundam.emplace\(“Setsuna F. Seiei”, “Gundam Exia”\);
+
+---
+
+#### operator\[\]
 
 
 
