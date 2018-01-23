@@ -76,5 +76,19 @@ returns the length of a string in bytes.
 
 ###### Note: other overloads of this method exist.
 
+---
+
+#### operator\[\]
+
+* You can retrieve elements of a string with brackets \(like old C style array\[x\]\).
+* If the index is out of bounds, you will get undefined behavior.
+* Use at\(size\_t pos\) for a bounds-checked version.
+
+> ##### string keepcalm\(“Keep calm and kill zombies!”\);
+>
+> ##### auto substring = keepcalm.substr\(14, 12\);
+>
+> ##### REQUIRE\(substring == “kill zombies!”\);
+
 
 
