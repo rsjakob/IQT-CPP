@@ -49,15 +49,29 @@ There also exists **std::array**, which is a fixed size, and size must be known 
 
 #### front\(\)
 
-* Retrieve the first element in a container.
+* Retrieves the first element in a container.
 * Returns a reference, so you can assign it \(as long as its not **const**\).
 * Behavior is undefined if the **vector **is empty.
 
 > ##### vector&lt;int&gt; fibonacci{0, 1, 1, 2, 3, 5, 8};
 >
 > ##### fibonacci.front\(\) = 42;
-
+>
 > ##### REQUIRE\(fibonacci\[3\] == 42\);
+
+---
+
+#### back\(\)
+
+* Returns the last element in a container.
+* Returns a reference, so you can assign it \(as long as its not **const**\).
+* Behavior is undefined if the **vector **is empty.
+
+> ##### vector&lt;int&gt; fibonacci{0, 1, 1, 2, 3, 5, 8} ;
+>
+> ##### fibonacci.back\(\) = 42;
+>
+> ##### REQUIRE\(fibonacci.back\(\) == 42\);
 
 
 
