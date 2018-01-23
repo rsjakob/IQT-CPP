@@ -73,5 +73,19 @@ There also exists **std::array**, which is a fixed size, and size must be known 
 >
 > ##### REQUIRE\(fibonacci.back\(\) == 42\);
 
+---
+
+#### data\(\)
+
+* Returns a contiguous array of elements contained in the **vector.**
+* You should only need this when interacting with C functions.
+* New to C++11
+
+> ##### void do\_stuff\(constint\*x,intsize\_of\_x\);
+>
+> ##### vector&lt;int&gt; fibonaci\(0, 1, 1, 2, 3, 5, 8};
+>
+> ##### do\_stuff\(fibonacci.data\(\), fibonacci.size\(\)\);
+
 
 
