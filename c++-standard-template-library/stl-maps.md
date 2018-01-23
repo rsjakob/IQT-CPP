@@ -35,10 +35,10 @@
 
 #### emplace\(\)
 
-* **emplace\(const iterator position, Args && … args\)**
-* Inserts an element into the **map**. Similar to **vectors, emplace\(\)**
-* Constructs the new element in-place for lower overhead
-* New to C++ 11
+* **emplace\(const iterator position, Args && … args\).**
+* Inserts an element into the **map**. Similar to **vectors, emplace\(\).**
+* Constructs the new element in-place for lower overhead.
+* New to C++ 11.
 
 > ##### gundam.emplace\(“Setsuna F. Seiei”, “Gundam Exia”\);
 
@@ -46,11 +46,9 @@
 
 #### operator\[\]
 
-The **operator\[\] **works similar to **vectors**, but you can supply the_ key _value to access the element.
-
-If the index is out of bounds, undefined behavior will occur.
-
-For a bounds-checked version, use **at\(\)**.
+* The **operator\[\] **works similar to **vectors**, but you can supply the\_ key \_value to access the element.
+* If the index is out of bounds, undefined behavior will occur.
+* For a bounds-checked version, use **at\(\)**.
 
 > ##### map&lt;string, string&gt; gundam\_pilots;
 >
@@ -59,6 +57,26 @@ For a bounds-checked version, use **at\(\)**.
 > ##### REQUIRE\(gundam.at\(“Camille Bidan”\) == “Zeta Gundam”\);
 >
 > ##### REQUIRE\(gundam\[“Camille Bidan”\] == “Zeta Gundam”\);
+
+---
+
+#### erase\(\)
+
+* **erase\(const iterator position\) ** - erase an element from the map with the provided key-value.
+
+###### Note: **empty\(\)** returns true if the ** map **has no elements.
+
+###### Note: other overloads of this method exist.
+
+> ##### map&lt;string, string&gt; gundam;
+>
+> ##### gundam.emplace\(“Banagher Links”, “Unicorn Gundam”\);
+>
+> ##### gundam.erase\(“Banagher Links”\);
+>
+> ##### REQUIRE\(gundam.empty\(\)\);
+
+---
 
 
 
