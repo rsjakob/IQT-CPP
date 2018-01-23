@@ -113,7 +113,7 @@ There also exists **std::array**, which is a fixed size, and size must be known 
 
 **empty\(\)** – returns true if the vector contains no elements.
 
-**clear\(\)** – removes all elements. Note that the removed elements are destroys.
+**clear\(\)** – removes all elements. Note that the removed elements are destroyed.
 
 > ##### vector&lt;int&gt; fibonacci;
 >
