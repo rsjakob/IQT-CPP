@@ -90,5 +90,21 @@ returns the length of a string in bytes.
 >
 > ##### REQUIRE\(substring == “kill zombies!”\);
 
+---
+
+#### data and c\_str
+
+* We can still use **string **objects in places where we still need C strings.
+* We can retrieve the underlying C-string with **data\(\)** and** c\_str\(\)**.
+* **c\_str\(\)** will return a null terminated string, **data\(\)** will not.
+
+> ##### char old\_c\_function\(constchar\* x, int x\_len\);
+>
+> ##### string keepcalm\(“Keep calm”\);
+>
+> ##### auto result = old\_c\_function\(keepcalm.c\_str\(\), keepcalm.len\(\)\);
+
+---
+
 
 
