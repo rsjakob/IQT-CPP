@@ -40,11 +40,25 @@
 * Constructs the new element in-place for lower overhead
 * New to C++ 11
 
-> gundam.emplace\(“Setsuna F. Seiei”, “Gundam Exia”\);
+> ##### gundam.emplace\(“Setsuna F. Seiei”, “Gundam Exia”\);
 
 ---
 
 #### operator\[\]
+
+The **operator\[\] **works similar to **vectors**, but you can supply the_ key _value to access the element.
+
+If the index is out of bounds, undefined behavior will occur.
+
+For a bounds-checked version, use **at\(\)**.
+
+> ##### map&lt;string, string&gt; gundam\_pilots;
+>
+> ##### gundam\_pilots.emplace\(“Camille Bidan”, “Zeta Gundam”\);
+>
+> ##### REQUIRE\(gundam.at\(“Camille Bidan”\) == “Zeta Gundam”\);
+>
+> ##### REQUIRE\(gundam\[“Camille Bidan”\] == “Zeta Gundam”\);
 
 
 
