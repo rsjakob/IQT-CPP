@@ -18,4 +18,6 @@
 * [C++ Standard Template Library](c++-standard-template-library.md)
   * [STL Containers and Streams](c++-standard-template-library/stl-containers-and-streams.md)
   * [Strings in C++](c++-standard-template-library/strings-in-c++.md)
+  * [Templates](c++-standard-template-library/templates.md)
+  * [STL Vector](c++-standard-template-library/stl-vector.md)
 
