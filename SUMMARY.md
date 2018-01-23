@@ -20,4 +20,5 @@
   * [Strings in C++](c++-standard-template-library/strings-in-c++.md)
   * [Templates](c++-standard-template-library/templates.md)
   * [STL Vector](c++-standard-template-library/stl-vector.md)
+  * [STL Maps](c++-standard-template-library/stl-maps.md)
 
