@@ -45,5 +45,19 @@ There also exists **std::array**, which is a fixed size, and size must be known 
 >
 > ##### REQUIRE\(fibonacci.at\(3\) == 2\)
 
+---
+
+#### front\(\)
+
+* Retrieve the first element in a container.
+* Returns a reference, so you can assign it \(as long as its not **const**\).
+* Behavior is undefined if the **vector **is empty.
+
+> ##### vector&lt;int&gt; fibonacci{0, 1, 1, 2, 3, 5, 8};
+>
+> ##### fibonacci.front\(\) = 42;
+
+> ##### REQUIRE\(fibonacci\[3\] == 42\);
+
 
 
