@@ -13,13 +13,17 @@
 >
 > ##### gundam.emplace\(“HeeroYuy”, “Wing Zero”\);
 >
-> ##### for\(const auto& element:found\_gundam\){
+> ##### for\(const auto& element:found\_gundam\)
 >
-> #####     if\(element.first == “AmuroRay” && element.second == “Gundam”\) {
+> ##### {
 >
-> #####         found\_gundam= true;
+> ##### if\(element.first == “AmuroRay” && element.second == “Gundam”\) 
 >
-> #####  }
+> ##### {
+>
+> ##### found\_gundam= true;
+>
+> ##### }
 >
 > ##### }
 >
