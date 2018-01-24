@@ -21,4 +21,5 @@
   * [Templates](c++-standard-template-library/templates.md)
   * [STL Vector](c++-standard-template-library/stl-vector.md)
   * [STL Maps](c++-standard-template-library/stl-maps.md)
+  * [STL Deque](c++-standard-template-library/stl-deque.md)
 
