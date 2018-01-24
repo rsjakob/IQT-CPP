@@ -27,4 +27,5 @@
   * [STL Iterators](c++-standard-template-library/stl-iterators.md)
   * [STL Algorithms](c++-standard-template-library/stl-algorithms.md)
   * [Lambda Expressions](c++-standard-template-library/lambda-expressions.md)
+  * [STL Copy](c++-standard-template-library/stl-copy.md)
 
