@@ -35,21 +35,55 @@ Stream objects are always to the left of the operator.
 
 Files can be written to using streams.
 
-Create the** ifstream **with the filename.
-
-Check that the file was opened with **is\_open\(\)**.
-
-Stream data into the **ifstream.**
-
-Optional: clean up with **close\(\).**
+* Create the** ifstream **with the filename.
+* Check that the file was opened with **is\_open\(\)**.
+* Stream data into the **ifstream.**
+* Optional: clean up with **close\(\).**
 
 > ##### ifstream file\(“streetfighter.txt”\);
 >
-> ##### if\(file.is\_open\(\)\) 
+> ##### if\(file.is\_open\(\)\)
 >
 > ##### {
 >
 > ##### file &gt;&gt; “Hadoken!”;
+>
+> ##### file.close\(\);
+>
+> ##### }
+>
+> ##### else
+>
+> ##### {
+>
+> ##### cout&lt;&lt; “Unable to open file…”;
+>
+> ##### }
+
+---
+
+#### File Output
+
+Files can also be read from using streams.
+
+* Create the **ofstream ** with the filename
+* Check that the file was successfully opened with **is\_open\(\)**
+* Stream data from the **ofstream**
+* Optional: clean up with **close\(\)**.
+
+> ##### ofstream file\(“streetfighter.txt”\);
+>
+> ##### if\(file.is\_open\(\)\)
+>
+> ##### {
+>
+> #####  while\(getline\(file, line\)\)
+>
+> ##### {
+>
+> ##### cout &lt;&lt; line &lt;&lt; endl;
+>
+> #####  }
 >
 > ##### file.close\(\);
 >
@@ -59,7 +93,7 @@ Optional: clean up with **close\(\).**
 >
 > ##### {
 >
-> ##### cout&lt;&lt; “Unable to open file…”;
+> ##### cout &lt;&lt; “Unable to open file…”;
 >
 > ##### }
 
