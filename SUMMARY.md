@@ -23,4 +23,5 @@
   * [STL Maps](c++-standard-template-library/stl-maps.md)
   * [STL Deque](c++-standard-template-library/stl-deque.md)
   * [STL Linked Lists](c++-standard-template-library/stl-linked-lists.md)
+  * [STL Streams](c++-standard-template-library/stl-streams.md)
 
