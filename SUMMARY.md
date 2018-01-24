@@ -25,4 +25,5 @@
   * [STL Linked Lists](c++-standard-template-library/stl-linked-lists.md)
   * [STL Streams](c++-standard-template-library/stl-streams.md)
   * [STL Iterators](c++-standard-template-library/stl-iterators.md)
+  * [STL Algorithms](c++-standard-template-library/stl-algorithms.md)
 

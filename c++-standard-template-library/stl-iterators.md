@@ -53,7 +53,7 @@ A _range-based_ _for loop _ can use an iterator to loop over the contents of a *
 >
 > ##### for\(auto iterator = fibonacci.begin\(\);
 >
-> #####  iterator != fibonacci.end\(\); iterator++\)
+> ##### iterator != fibonacci.end\(\); iterator++\)
 >
 > ##### {
 >
@@ -62,12 +62,14 @@ A _range-based_ _for loop _ can use an iterator to loop over the contents of a *
 > ##### }
 
 | Category | Ability | Example |
-| :--- | :--- | :--- |
+| :---: | :---: | :---: |
 | Input | Read forward | istream |
 | Output | Write forward | ostream, back\_inserter |
 | Forward | Read/Write forward | list, set, map |
 | Bidirectional | Read/Write forward/backward | list, set, map |
 | Random Access | Read/Write & Random Access | vector, string |
 
+Some iterators are already familiar, but notice that **lists **and **maps** can move in either direction.
 
+**Vectors **and **strings **can be accessed randomly from any element within its bounds.
 
