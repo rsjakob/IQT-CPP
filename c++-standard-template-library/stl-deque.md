@@ -55,22 +55,18 @@
 
 #### back\(\), push\_back, and pop\_back\(\)
 
-.back\(\) – retrieves an element from the end of the list.
+**.back\(\)** – retrieves an element from the end of the list.
 
-.push\_back\(\) – inserts an element at the end of the list.
+**.push\_back\(\) **– inserts an element at the end of the list.
 
-.pop\_back\(\) – removes an element from the end of the list and deletes it.
+**.pop\_back\(\)** – removes an element from the end of the list and deletes it.
 
 > std::deque&lt;int&gt; queue;
 >
 > for\(auto i= 0U; i &lt; 10; ++i\)
 >
 > queue.push\_back\(i\*i\);
-
-
-
-
-
+>
 > for\(autoi= 0U;i&lt; 10; ++i\)
 >
 > {
@@ -82,4 +78,6 @@
 > }
 
 ---
+
+
 
