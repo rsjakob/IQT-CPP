@@ -14,11 +14,13 @@ Applies a function to the range\(s\) given by the first two \(three if binary\) 
 >
 > {
 >
->  return string\(len, ‘a’\);
+> return string\(len, ‘a’\);
 >
 > }\);
 >
 > REQUIRE\(output == vector&lt;string&gt;\({“aaaa”, “”, “aa”}\)\);
 
 ---
+
+
 

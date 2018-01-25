@@ -30,4 +30,6 @@
   * [STL Copy](c++-standard-template-library/stl-copy.md)
   * [STL back\_inserter](c++-standard-template-library/stl-backinserter.md)
   * [STL transform](c++-standard-template-library/stl-transform.md)
+  * [STL find\_if](c++-standard-template-library/stl-findif.md)
+* [Lab 2](lab-2.md)
 
