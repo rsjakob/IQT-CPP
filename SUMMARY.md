@@ -32,4 +32,6 @@
   * [STL transform](c++-standard-template-library/stl-transform.md)
   * [STL find\_if](c++-standard-template-library/stl-findif.md)
 * [Lab 2](lab-2.md)
+* [Object Oriented Programming C++](object-oriented-programming-c++.md)
+  * [Classes](object-oriented-programming-c++/classes.md)
 
