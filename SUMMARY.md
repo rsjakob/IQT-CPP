@@ -29,4 +29,5 @@
   * [Lambda Expressions](c++-standard-template-library/lambda-expressions.md)
   * [STL Copy](c++-standard-template-library/stl-copy.md)
   * [STL back\_inserter](c++-standard-template-library/stl-backinserter.md)
+  * [STL transform](c++-standard-template-library/stl-transform.md)
 

@@ -105,7 +105,7 @@ You have used some of these previously in C. Here is a more comprehensive list:
 * \’ : single quote
 * \” : double quote
 * \? : question mark
-*  : backslash
+* : backslash
 * \a : audible bell
 * \b : backspace
 * \f : form feed
@@ -159,5 +159,5 @@ nullptr = a literal that represents a null pointer.
 >
 > }
 
-
+---
 

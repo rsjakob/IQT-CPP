@@ -10,5 +10,7 @@
 * **int gcd\(const int, const int b\)** – this function should return the greatest common denominator of two numbers.
 * Try using some of the new C++ features we covered. Experiment with **auto**, **decltype**, **const**, and **references**.
 
+---
+
 
 

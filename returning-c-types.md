@@ -2,7 +2,7 @@
 
 ---
 
-**All the primitive data types we learned previously are still available in `std::arithmetic` including:**
+**All the primitive data types we learned previously are still available in **`std::arithmetic`** including:**
 
 * \(signed\) char, unsigned char
 * int, unsigned int
@@ -22,5 +22,5 @@
 
 **Along with some new features that help deal with pointers.**
 
-
+---
 

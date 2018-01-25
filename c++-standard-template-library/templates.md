@@ -20,5 +20,5 @@
 >
 > ##### T DataStructure&lt;T&gt;::next\(\);
 
-
+---
 

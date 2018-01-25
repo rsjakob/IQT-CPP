@@ -19,16 +19,16 @@ Lambda expressions are unnamed functions that are written \_inline \_with the re
 ---
 
 * Lambdas are created with **\[\]**, the capture _clause_.
-* This allows the _lambda function _to capture a variable from the surrounding scope.
+* This allows the \_lambda function \_to capture a variable from the surrounding scope.
 * After the capture clause comes the argument list.
 * This example does not capture a variable.
-* How is this _lambda expression _being used?
+* How is this \_lambda expression \_being used?
 
 > ##### auto fn1 = \[\] \(intx\)
 >
 > ##### {
 >
-> #####  return x % 42;
+> ##### return x % 42;
 >
 > ##### }
 >
@@ -47,7 +47,7 @@ Lambda expressions are unnamed functions that are written \_inline \_with the re
 >
 > ##### {
 >
-> #####  return x % divisor;
+> ##### return x % divisor;
 >
 > ##### };
 >
@@ -67,7 +67,7 @@ Lambda expressions are unnamed functions that are written \_inline \_with the re
 >
 > {
 >
->  return x % divisor;
+> return x % divisor;
 >
 > };
 >
@@ -75,5 +75,5 @@ Lambda expressions are unnamed functions that are written \_inline \_with the re
 >
 > REQUIRE\(fn2\(62\) == 0\);
 
-
+---
 

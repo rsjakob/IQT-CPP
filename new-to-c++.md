@@ -127,13 +127,13 @@ It is a **const-**ant.
 >
 > ##### {
 >
-> #####     const auto x = 100;
+> ##### const auto x = 100;
 >
-> #####     x = 200;     //Does not compile
+> ##### x = 200;     //Does not compile
 >
-> #####     //code stuffs
+> ##### //code stuffs
 >
-> #####     return \(0\);
+> ##### return \(0\);
 >
 > ##### }
 
@@ -159,5 +159,5 @@ It is a **const-**ant.
 >
 > ptr3 = &b    //ERROR
 
-
+---
 

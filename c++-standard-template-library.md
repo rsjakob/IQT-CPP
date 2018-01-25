@@ -42,5 +42,5 @@ Use the STL!
 >
 > #### sort\(a.begin\(\), a.end\(\)\);
 
-
+---
 
