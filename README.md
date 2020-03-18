@@ -21,11 +21,11 @@ C++ is a superset of C
 
 All libraries from C are used in C++
 
-Resource handling is much improved
+Resource handling is much improved.
 
-Higher-level Concepts sucha s generic programming are now possible
+Higher-level Concepts such as generic programming are now possible.
 
-They also share all of the same short-comings
+They also share all of the same short-comings.
 
 User-defined C++ types are difficult to integrate with old C.
 
